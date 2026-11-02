@@ -67,6 +67,4 @@ The resulting ZIP will be generated under the build output area and can then be 
 - The extension version currently matches the Ghidra compatibility target: `12.1.2`.
 - If you are using a different Ghidra version, make sure you build or download a matching extension package for that Ghidra version.
 
-## License
 
-This project is distributed under the Apache License 2.0, as indicated by the module metadata.
