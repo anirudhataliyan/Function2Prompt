@@ -1,5 +1,7 @@
 # Function2Prompt
 
+![Function2Prompt Screenshot](docs/screenshots/Screenshot_20261102_164027.png)
+
 Function2Prompt is a Ghidra extension that helps reverse engineers send decompiled function code and metadata directly to an AI assistant for analysis, explanation, and follow-up investigation.
 
 It connects Ghidra's decompiler output with an AI chat flow so you can quickly ask questions about a function without manually copying code between tools.
@@ -17,7 +19,7 @@ It connects Ghidra's decompiler output with an AI chat flow so you can quickly a
 - Java 21 JDK (recommended and required for Ghidra 12.1.x)
 - A working Ghidra installation
 
-Important: This extension is built for the Ghidra 12.1.x line and is expected to run with the Java version used by that Ghidra release. For Ghidra 12.1.2, use Java 21. Do not use older Java versions with this extension unless your local Ghidra build explicitly supports them.
+Important: This extension is built for the Ghidra 12.1.x line and is expected to run with the Java version used by that Ghidra release. For Ghidra 12.1.2, use Java 21. Do not use older Java versions unless you are specifically targeting a compatible Ghidra build.
 
 ## Downloading the compiled extension
 
@@ -66,5 +68,3 @@ The resulting ZIP will be generated under the build output area and can then be 
 
 - The extension version currently matches the Ghidra compatibility target: `12.1.2`.
 - If you are using a different Ghidra version, make sure you build or download a matching extension package for that Ghidra version.
-
-
