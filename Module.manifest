@@ -1,0 +1,4 @@
+MODULE FILE LICENSE: Apache License 2.0
+MODULE NAME: Function2Prompt
+MODULE VERSION: 12.1.2
+MODULE DESCRIPTION: Export and analyse Ghidra functions with an embedded OpenAI chat assistant.
