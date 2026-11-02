@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="Function2Prompt in Ghidra - analysis insight output">
+  <defs>
+    <linearGradient id="bg3" x1="0" x2="1">
+      <stop offset="0%" stop-color="#2d2f3a"/>
+      <stop offset="100%" stop-color="#1a1d24"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bg3)"/>
+  <rect x="0" y="0" width="1280" height="34" fill="#23262d"/>
+  <circle cx="18" cy="17" r="7" fill="#ff5f57"/>
+  <circle cx="38" cy="17" r="7" fill="#febc2e"/>
+  <circle cx="58" cy="17" r="7" fill="#28c840"/>
+  <text x="110" y="23" font-size="16" fill="#dfeaf8" font-family="Arial, sans-serif">Function2Prompt AI [CodeBrowser: Ghidra Function Explainer AI:/My_First_Crackme.exe]</text>
+
+  <rect x="0" y="34" width="1280" height="52" fill="#efeff1"/>
+  <rect x="0" y="86" width="760" height="634" fill="#dfe8ef"/>
+  <rect x="760" y="86" width="520" height="634" fill="#edf2f6"/>
+
+  <rect x="25" y="110" width="710" height="560" fill="#dfeaf7" stroke="#a9bfd6"/>
+  <rect x="44" y="126" width="670" height="42" fill="#d8edf7" stroke="#a9cbeb"/>
+  <text x="64" y="153" font-size="18" fill="#1f2d3c" font-family="Arial, sans-serif">Function2Prompt AI</text>
+
+  <rect x="44" y="182" width="670" height="52" fill="#eff7ff" stroke="#bfdcf0"/>
+  <text x="64" y="213" font-size="17" fill="#2f3d54" font-family="Arial, sans-serif">API Endpoint:</text>
+  <rect x="230" y="190" width="450" height="28" fill="#ffffff" stroke="#aabfd7"/>
+  <text x="246" y="210" font-size="14" fill="#5d6975" font-family="Arial, sans-serif">https://openrouter.ai/api/v1/chat/completions</text>
+
+  <rect x="44" y="246" width="670" height="345" fill="#edf6ff" stroke="#becee0"/>
+  <text x="64" y="276" font-size="18" fill="#1f3450" font-family="Arial, sans-serif"># 1. Plain-English purpose (high-confidence observation)</text>
+  <text x="64" y="308" font-size="15" fill="#30495f" font-family="Arial, sans-serif">The function appears to be a “single-time initialization routine” ...</text>
+  <text x="64" y="338" font-size="15" fill="#30495f" font-family="Arial, sans-serif">1. Checks a global “initialized” flag ...</text>
+  <text x="64" y="368" font-size="15" fill="#30495f" font-family="Arial, sans-serif">2. If not yet initialized, it ...</text>
+  <text x="64" y="398" font-size="15" fill="#30495f" font-family="Arial, sans-serif">3. Returns immediately if already set ...</text>
+  <text x="64" y="428" font-size="15" fill="#30495f" font-family="Arial, sans-serif">In short: “initialize some runtime structures ...”</text>
+  <text x="64" y="458" font-size="15" fill="#30495f" font-family="Arial, sans-serif"># 2. Control-flow and important operations (observations)</text>
+
+  <rect x="44" y="602" width="670" height="42" fill="#edf2f8" stroke="#b9cfe3"/>
+  <rect x="470" y="609" width="110" height="28" fill="#f4f5f5" stroke="#b7c2cf" rx="4"/>
+  <text x="500" y="628" font-size="14" fill="#303841" font-family="Arial, sans-serif">Clear chat</text>
+  <rect x="596" y="609" width="86" height="28" fill="#d9ecff" stroke="#9ec7f0" rx="4"/>
+  <text x="627" y="628" font-size="14" fill="#204d74" font-family="Arial, sans-serif">Send</text>
+
+  <rect x="790" y="120" width="450" height="560" fill="#edf3fa" stroke="#afc7dc"/>
+  <rect x="806" y="136" width="420" height="530" fill="#f9fcff" stroke="#d6e5f4"/>
+  <text x="828" y="170" font-size="17" fill="#2c3742" font-family="Arial, sans-serif">Decompiler</text>
+  <text x="828" y="220" font-size="13" fill="#385f85" font-family="Courier New, monospace">FUN_140001720</text>
+  <text x="828" y="255" font-size="12" fill="#4a5d72" font-family="Courier New, monospace">void FUN_140001720(void)</text>
+  <text x="828" y="300" font-size="12" fill="#4a5d72" font-family="Courier New, monospace">{</text>
+  <text x="828" y="328" font-size="12" fill="#4a5d72" font-family="Courier New, monospace">    DAT_140004084 = '\x01';</text>
+  <text x="828" y="356" font-size="12" fill="#4a5d72" font-family="Courier New, monospace">    uVar2 = 0;</text>
+  <text x="828" y="384" font-size="12" fill="#4a5d72" font-family="Courier New, monospace">    ...</text>
+  <text x="828" y="456" font-size="12" fill="#4a5d72" font-family="Courier New, monospace">    _crt_atexit(FUN_140001660);</text>
+  <text x="828" y="484" font-size="12" fill="#4a5d72" font-family="Courier New, monospace">    return;</text>
+  <text x="828" y="512" font-size="12" fill="#4a5d72" font-family="Courier New, monospace">}</text>
+</svg>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
